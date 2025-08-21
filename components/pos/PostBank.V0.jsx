@@ -66,7 +66,7 @@ function PostBankV0() {
     const [pass, setPass] = React.useState('');
     const [user, setUser] = React.useState('');
     const handleLogin = () => {
-        (user==='admin' && pass==='lethuy92') ? setIsLogin(false) : message.warn('Mật khẩu hoặc tài khoản không đúng');
+        (user==='admin' && pass==='anhthu2025') ? setIsLogin(false) : message.warn('Mật khẩu hoặc tài khoản không đúng');
     }
     const showModal = () => {
         setIsModalVisible(true);
